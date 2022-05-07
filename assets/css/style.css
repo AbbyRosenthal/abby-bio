@@ -81,9 +81,6 @@ header nav ul li a {
 
 .about-me {
     border: 10px solid rgb(51, 81, 0);
-    border-bottom:none;
-    border-top:none;
-    border-left: none;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -103,17 +100,16 @@ header nav ul li a {
 
 img {
     border-radius: 50px;
-    width: 150px;
-    height: 200px;
-    float: right;
+  width: 100px;
+  height: 150px;
 }
 /*my work styling*/
 
 .my-work {
-    border: 10px solid purple;
+    border: 10px solid rgb(51, 81, 0);
     border-bottom:none;
     border-top:none;
-    border-right:10px ;
+    border-right:10px;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -122,16 +118,14 @@ img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .work-one {
     border: 2px solid rgb(43, 2, 43);
     padding: 3px;
+    margin: 50px;
     display: flex;
     flex-direction: row;
-    box-shadow: 5 5 5 black;
     background-image: url(GitHub-logo.png);
-    height: 500px;
-    width: 700px;
+    background-size: cover;
 }
 
 .work-one img {
@@ -139,29 +133,18 @@ img {
     height: 100%;
 }
 
-.work-one a {
-    position: relative;
-    width: auto;
-}
-
-.work-two {
+.work-example {
     border: 2px solid rgb(43, 2, 43);
     padding: 3px;
+    margin: 5px;
+    height: 300px;
+    width: 800px;
+    float: left;
 }
 
-.work-three {
-    border: 2px solid rgb(43, 2, 43);
-    padding: 3px;
-}
-
-.work-four {
-    border: 2px solid rgb(43, 2, 43);
-    padding: 3px;
-}
-
-.work-five {
-    border: 2px solid rgb(43, 2, 43);
-    padding: 3px;
+#example-one {
+    height: 400px;
+    width: 1200px;
 }
 
 /*contact info styling*/
