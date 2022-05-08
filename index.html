@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!--navigation-->
+    <!--header and navigation-->
     <header class="header">
         <h1>Abby Rosenthal</h1>
         <nav>
@@ -26,57 +26,78 @@
             </ul>
         </nav>
     </header>
+    <!-- end navigation-->
 
     <!--Hero Section-->
     <section class="hero">
         <h2>Abby Rosenthal's Portfolio</h2>
     </section>
 
-    <!--main content-->
+    <!--about me section-->
 
-    <!--About Me Section-->
-    <section class="about-me" id="about-me">
-        <div>
-            <h3>About Me</h3>
-            <img src="../abby-bio/assets/images/Abby.jpg" alt="Abby Rosenthal's linkedin photo">
-            <p>super interesting things about me </p>
+    <section id="about-me" class="about-me">
+        <div class="flex-row">
+            <h3 class="section-title">About Me
+            </h3>
+            <p>Super Interesting things about my life</p>
+            <img src="./assets/images/Abby.jpg" alt="Abby Rosenthal's LinkedIn picture">
         </div>
     </section>
 
-    <!--My Work Section-->
-    <section class="my-work">
-        <div>
-            <h3>My Work</h3>
-            <div>
-                <!--use this html to make a clickable image-->
-                <div class="work-example" id="example-one">
-                    <span>
-                        <a href="https://github.com/AbbyRosenthal?tab=repositories" target="_blank">
-                            <img src="./assets/images/GitHub-logo.png" alt="Github Logo" style="height: auto;">
-                        </a>
-                    </span>
-                </div>
-                <span id="other-examples">
-                <div class="work-example">
-                    <p> second example of work</p>
-                </div>
-                <div class="work-example">
-                    <p> third example of work</p>
-                </div>
-                <div class="work-example">
-                    <p> fourth example of work</p>
-                </div>
-                <div class="work-example">
-                    <p> fifth example of work</p>
-                </div>
-            </span>
+    <!--my work section-->
 
-            </div>
+    <section id="my-work" class="my-work">
+        <div class="flex-row">
+            <h3 class="work-name">My Work
+            </h3>
         </div>
+
+        <div class="work-examples">
+            <article class="example">
+                <div class="example-type">
+                    <a href="https://github.com/AbbyRosenthal?tab=repositories" target="_blank">
+                        <img src="./assets/images/GitHub-logo.png" alt="Github Logo" style="height: auto;">
+                    </a>
+                    <h4>GitHub</h4>
+                    <p>GitHub Repository</p>
+                </div>
+            </article>
+
+            <article class="example">
+                <!--insert image-->
+                <div class="example-type">
+                    <h4>Example Two</h4>
+                    <p>blurbl about this example</p>
+                </div>
+            </article>
+
+            <article class="example">
+                <!--insert image-->
+                <div class="example-type">
+                    <h4>Example Three</h4>
+                    <p>blurbl about this example</p>
+                </div>
+            </article>
+
+            <article class="example">
+                <!--insert image-->
+                <div class="example-type">
+                    <h4>Example four</h4>
+                    <p>blurbl about this example</p>
+                </div>
+            </article>
+
+            <article class="example">
+                <!--insert image-->
+                <div class="example-type">
+                    <h4>Example Five</h4>
+                    <p>blurbl about this example</p>
+                </div>
+            </article>
         </div>
     </section>
 
-    <!--contact section-->
+    <!--Contact Section-->
     <section class="contact-me" id="contact-me">
         <div>
             <h3>Contact Me</h3>
