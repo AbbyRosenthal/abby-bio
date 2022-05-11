@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 /*Header Styling*/
 
@@ -79,29 +79,37 @@ section {
 
 /*my work examples styling*/
 
+.my-work h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .work-examples {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex: 4 0 0;
+}
+
+.other-examples {
+    display: flex;
 }
 
 .example {
     margin: 20px;
-    flex: 1;
     background:rgb(51, 81, 0);
     color:rgb(255, 255, 255);
+    border: 3px solid black;
 }
 
 .example img {
     width: 100%;
 }
 
+
 .example-type h4, .example-type p {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /*contact me styling*/
 
 .contact-me {
